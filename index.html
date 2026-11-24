@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Daniel Silva, estudante finalista de Desenvolvimento de Software no ISTEC Porto, focado em Back-End, bases de dados e Web.">
+  <meta name="theme-color" content="#0f172a">
+  <title>Daniel Silva | Desenvolvimento de Software</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <nav class="nav-container" aria-label="Navegação principal">
+      <a class="logo" href="#inicio" aria-label="Ir para o início">&lt;Daniel_Silva /&gt;</a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menu">
+        <i data-lucide="menu"></i>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <a class="nav-link" href="#sobre">Sobre</a>
+        <a class="nav-link" href="#tecnologias">Tecnologias</a>
+        <a class="nav-link" href="#projetos">Projetos</a>
+        <a class="nav-link" href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+      <div class="container hero-layout reveal">
+        <div class="hero-content">
+          <div class="availability">
+            <span class="status-dot" aria-hidden="true"></span>
+            Disponível para estágio curricular ou profissional
+          </div>
+
+          <p class="hero-kicker">Olá, sou</p>
+          <h1>Daniel Silva</h1>
+          <p class="hero-subtitle">Estudante Finalista de Desenvolvimento de Software @ ISTEC Porto | Foco em Back-End, Bases de Dados &amp; Web</p>
+          <p class="hero-description">
+            Construo aplicações web e soluções orientadas a dados com C#, PHP (Laravel) e SQL.
+            À procura de oportunidade de estágio curricular ou profissional.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos">
+              Ver Projetos
+              <i data-lucide="arrow-down"></i>
+            </a>
+            <a class="button button-secondary" href="https://github.com/daniellssilva0501-cmd" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="github"></i>
+              GitHub
+            </a>
+            <a class="button button-secondary" href="https://www.linkedin.com/in/daniel-silva-software" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="linkedin"></i>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <div class="profile-frame">
+          <img
+            class="profile-photo"
+            src="assets/perfil.jpeg"
+            alt="Fotografia de perfil de Daniel Silva"
+            onerror="this.hidden = true; this.nextElementSibling.hidden = false;"
+          >
+          <span class="profile-fallback" aria-hidden="true" hidden>DS</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / Sobre mim</p>
+          <h2>Quem sou eu</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>
+              Sou estudante finalista do <strong>CTeSP em Desenvolvimento de Software no ISTEC Porto</strong>,
+              focado em lógica de Back-End, modelação de bases de dados relacionais e desenvolvimento de
+              aplicações funcionais com boas práticas e testes de software.
+            </p>
+            <p>
+              A minha ética de trabalho foi construída fora da área de TI desde os 14 anos, em ambientes
+              operacionais e com gestão autónoma de horários e prazos. Ganhei responsabilidade, comunicação
+              direta, autonomia e resiliência para aprender rapidamente e trabalhar em equipa.
+            </p>
+          </div>
+
+          <div class="highlight-grid reveal">
+            <article class="highlight-card">
+              <i data-lucide="database"></i>
+              <h3>Foco em Backend &amp; Dados</h3>
+              <p>Aplicações estruturadas, consultas eficientes e modelos de dados sólidos.</p>
+            </article>
+            <article class="highlight-card">
+              <i data-lucide="shield-check"></i>
+              <h3>Mentalidade Prática &amp; Resiliente</h3>
+              <p>Responsabilidade, autonomia e capacidade de resposta em contextos exigentes.</p>
+            </article>
+            <article class="highlight-card">
+              <i data-lucide="graduation-cap"></i>
+              <h3>Finalista ISTEC</h3>
+              <p>Preparado para integrar uma equipa e evoluir através de desafios reais.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tecnologias">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 / Tecnologias</p>
+          <h2>Stack Tecnológica</h2>
+        </div>
+
+        <div class="stack-grid">
+          <article class="stack-card reveal">
+            <div class="stack-card-header">
+              <i data-lucide="braces"></i>
+              <h3>Back-End</h3>
+            </div>
+            <div class="tags">
+              <span>C#</span><span>PHP</span><span>Laravel</span>
+            </div>
+          </article>
+
+          <article class="stack-card reveal">
+            <div class="stack-card-header">
+              <i data-lucide="database"></i>
+              <h3>Bases de Dados</h3>
+            </div>
+            <div class="tags">
+              <span>SQL</span><span>MySQL</span><span>SQL Server</span>
+            </div>
+          </article>
+
+          <article class="stack-card reveal">
+            <div class="stack-card-header">
+              <i data-lucide="layout-template"></i>
+              <h3>Front-End</h3>
+            </div>
+            <div class="tags">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>TypeScript</span>
+            </div>
+          </article>
+
+          <article class="stack-card reveal">
+            <div class="stack-card-header">
+              <i data-lucide="smartphone"></i>
+              <h3>Mobile &amp; Outros</h3>
+            </div>
+            <div class="tags">
+              <span>Flutter</span><span>Dart</span>
+            </div>
+          </article>
+
+          <article class="stack-card reveal">
+            <div class="stack-card-header">
+              <i data-lucide="wrench"></i>
+              <h3>Ferramentas &amp; Qualidade</h3>
+            </div>
+            <div class="tags">
+              <span>Git</span><span>GitHub</span><span>Testes de Software</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 / Projetos</p>
+          <h2>Projetos em Destaque</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card project-featured reveal">
+            <!-- Substitui este espaço por uma imagem: <img src="assets/projeto-laravel.png" alt="Ecrã do sistema de gestão web"> -->
+            <div class="project-image" aria-label="Espaço para imagem do Sistema de Gestão Web">
+              <div class="browser-bar"><span></span><span></span><span></span></div>
+              <div class="project-placeholder">
+                <i data-lucide="panel-top"></i>
+                <span>Laravel / Web App</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <p class="project-label">Projeto em destaque</p>
+              <h3>Sistema de Gestão Web</h3>
+              <p>
+                Aplicação web com autenticação de utilizadores, controlo de permissões, operações CRUD
+                e uma base de dados relacional normalizada.
+              </p>
+              <div class="tags project-tags">
+                <span>Laravel</span><span>PHP</span><span>MySQL</span>
+              </div>
+              <div class="project-actions">
+                <!-- Substitui # pelo URL do repositório específico quando estiver disponível. -->
+                <a class="button button-secondary button-small" href="https://github.com/daniellssilva0501-cmd" target="_blank" rel="noopener noreferrer">
+                  <i data-lucide="github"></i> Ver Código no GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <!-- Substitui este espaço por uma imagem: <img src="assets/projeto-csharp.png" alt="Ecrã da aplicação em C#"> -->
+            <div class="project-image" aria-label="Espaço para imagem da aplicação em C# e SQL Server">
+              <div class="browser-bar"><span></span><span></span><span></span></div>
+              <div class="project-placeholder">
+                <i data-lucide="terminal-square"></i>
+                <span>C# / SQL Server</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Aplicação de Gestão e Lógica de Negócio</h3>
+              <p>
+                Aplicação desenvolvida com Programação Orientada a Objetos (POO), ligação a SQL Server,
+                validações e estrutura modular.
+              </p>
+              <div class="tags project-tags">
+                <span>C#</span><span>SQL Server</span><span>POO</span>
+              </div>
+              <div class="project-actions">
+                <!-- Substitui # pelo URL do repositório específico quando estiver disponível. -->
+                <a class="button button-secondary button-small" href="https://github.com/daniellssilva0501-cmd" target="_blank" rel="noopener noreferrer">
+                  <i data-lucide="github"></i> Ver Código no GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <!-- Substitui este espaço por uma imagem: <img src="assets/projeto-flutter.png" alt="Ecrã da aplicação móvel Flutter"> -->
+            <div class="project-image" aria-label="Espaço para imagem da aplicação móvel Flutter">
+              <div class="browser-bar"><span></span><span></span><span></span></div>
+              <div class="project-placeholder">
+                <i data-lucide="monitor-smartphone"></i>
+                <span>Flutter / Mobile App</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Aplicação Móvel Multiplataforma</h3>
+              <p>
+                Protótipo funcional desenvolvido em contexto académico no ISTEC, com navegação entre ecrãs,
+                consumo de dados e interface responsiva.
+              </p>
+              <div class="tags project-tags">
+                <span>Flutter</span><span>Dart</span>
+              </div>
+              <div class="project-actions">
+                <!-- Substitui # pelo URL do repositório específico quando estiver disponível. -->
+                <a class="button button-secondary button-small" href="https://github.com/daniellssilva0501-cmd" target="_blank" rel="noopener noreferrer">
+                  <i data-lucide="github"></i> Ver Código no GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contacto">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div>
+            <p class="eyebrow">04 / Contacto</p>
+            <h2>Vamos trabalhar juntos?</h2>
+            <p>
+              Estou à procura de uma oportunidade de estágio curricular ou profissional. Disponível para
+              trabalhar presencialmente no Porto, em regime híbrido ou remoto.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <button class="button button-primary" id="copy-email" type="button" data-email="daniellssilva0501@gmail.com">
+              <i data-lucide="copy"></i>
+              <span>Copiar Email</span>
+            </button>
+            <div class="social-links" aria-label="Redes sociais">
+              <a href="https://github.com/daniellssilva0501-cmd" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i data-lucide="github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/daniel-silva-software" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i data-lucide="linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <a class="logo" href="#inicio">&lt;Daniel_Silva /&gt;</a>
+      <p>&copy; 2026 Daniel Silva. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
